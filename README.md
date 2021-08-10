@@ -5,11 +5,14 @@
 Install [docker](https://docs.docker.com/install/#supported-platforms) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your platform.
 Then run the following commands:
 
-```bash
-$ git clone https://github.com/jayalalsarma/cs3100-2021
-$ docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest
-$ jupyter notebook --ip=0.0.0.0
-```
+```bash 
+$ git clone https://github.com/jayalalsarma/cs3100-2021 
+$ docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest $ jupyter notebook --ip=0.0.0.0 
+``` 
+
+The second step in the above will download the image from dockerhub 
+automatically. About 500MB download and requires about 5GB storage space 
+in hard disk when uncompressed.
 
 Copy and paste the diplayed URL that starts with `http://127.0.0.1:8888` into
 your browser. If you save the changes to the notebook, they are saved locally.
@@ -23,6 +26,9 @@ On Linux, you need to run the docker command with `sudo`:
 ```bash
 $ sudo docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest
 ```
+
+And you need at least 5GB free space in the partition in which /var lives.
+
 ## Windows
 
 In some windows machines you may have to install wsl 2. Follow only step 4 from this [link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
