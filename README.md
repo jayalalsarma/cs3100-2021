@@ -2,7 +2,8 @@
 
 ## Running the Jupyter notebooks
 
-Install [docker](https://docs.docker.com/install/#supported-platforms) for your platform.
+Install [docker](https://docs.docker.com/install/#supported-platforms) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your platform.
+Then run the following commands:
 
 ```bash
 $ git clone https://github.com/jayalalsarma/cs3100-2021
