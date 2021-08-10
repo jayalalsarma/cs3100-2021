@@ -7,7 +7,8 @@ Then run the following commands:
 
 ```bash 
 $ git clone https://github.com/jayalalsarma/cs3100-2021 
-$ docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest $ jupyter notebook --ip=0.0.0.0 
+$ docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest
+$ jupyter notebook --ip=0.0.0.0 
 ``` 
 
 The second step in the above will download the image from dockerhub 
