@@ -22,7 +22,7 @@ As you go through the course, you will have to do `git pull` in the
 
 ## Linux
 
-On Linux, you need at least 5GB free space in the partition in which /var lives.
+On Linux, you need at least 5GB free space in the partition in which `/var` lives.
 And you need to run the docker command with `sudo`:
 
 ```bash
@@ -31,12 +31,12 @@ $ sudo docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-
 
 ## Windows
 
-In some windows machines you may have to install wsl 2. Follow only step 4 from this [link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
+In some windows machines you may have to install `wsl 2`. Follow only `step 4` from this [link](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
 For running the docker step, on Windows, you need to run the docker command as follows:
 
 ```bash
 $ docker run -it -p 8888:8888 -v PATH:/cs3100-2021 jayalalsarma/cs3100-2021:latest
 ```
-where PATH in the command should be replaced with the location you cloned the git repo into in the above steps
+where `PATH` in the command should be replaced with the location you cloned the git repo into in the above steps
 
 
