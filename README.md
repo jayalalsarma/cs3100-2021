@@ -1,4 +1,4 @@
-# CS3100: Paradigms of Programming (IITM Monsoon 2020)
+# CS3100: Paradigms of Programming - 2021
 
 ## Running the Jupyter notebooks
 
