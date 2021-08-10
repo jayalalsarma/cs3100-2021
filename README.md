@@ -31,7 +31,7 @@ For running the docker step, on Windows, you need to run the docker command with
 
 ```bash
 $ docker run -it -p 8888:8888 -v (PATH):/cs3100-2021 jayalalsarma/cs3100-2021:latest , 
-replace (PATH) in this command with whichever location you cloned the git repo into in the above steps
 ```
+where (PATH) in the command should be replaced with the location you cloned the git repo into in the above steps
 
 
