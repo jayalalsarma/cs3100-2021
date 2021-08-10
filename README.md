@@ -13,7 +13,7 @@ $ jupyter notebook --ip=0.0.0.0
 
 The second step in the above will download the image from dockerhub 
 automatically. About 500MB download and requires about 5GB storage space 
-in hard disk when uncompressed.
+in hard disk when uncompressed. This needs to be done only once.
 
 Copy and paste the diplayed URL that starts with `http://127.0.0.1:8888` into
 your browser. If you save the changes to the notebook, they are saved locally.
