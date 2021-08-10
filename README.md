@@ -23,3 +23,15 @@ On Linux, you need to run the docker command with `sudo`:
 ```bash
 $ sudo docker run -it -p 8888:8888 -v "$(pwd)":/cs3100-2021 jayalalsarma/cs3100-2021:latest
 ```
+## Windows
+
+In some windows machines you may have to install wsl 2. Follow only step 4 from this link(https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
+
+For running the docker step, on Windows, you need to run the docker command with () instead of $()
+
+```bash
+$ docker run -it -p 8888:8888 -v (PATH):/cs3100-2021 jayalalsarma/cs3100-2021:latest , 
+replace (PATH) in this command with whichever location you cloned the git repo into in the above steps
+```
+
+
